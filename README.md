@@ -52,6 +52,12 @@ GIF created with ...  **LICECap**
 ## Notes
 
 **Challenges encountered:**
+- **Setting up Vite Proxy for API Requests**
+  - Initially struggled to understand how the frontend and backend communicate during development
+  - Learned that the proxy configuration in `vite.config.js` is essential for avoiding CORS issues
+  - Key insight: The `target` in the proxy config only includes the base URL (protocol + host + port), and the request path is automatically appended
+  - Example: `'/gifts': { target: 'http://localhost:3001' }` forwards `/gifts` requests to `http://localhost:3001/gifts`
+  
 - Managing separate front-end and back-end file structures with proper routing
 - Implementing dynamic URL parameters for individual food detail pages
 - Styling responsive cards with background images using Picocss
