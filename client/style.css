@@ -1,0 +1,108 @@
+.header-container{
+    display: flex;
+    height: 80px;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-container img{
+    height: 60px;
+    width: auto;
+}
+.header-left{
+    display: flex;
+    /* align-items: center; */
+    cursor: pointer;
+
+}
+/* .header-left:hover{
+    opacity: 0.8;
+} */
+
+.header-right button{
+    width: 70px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+/* Home page CSS */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(3, 7, 89);
+    border-radius: 0.3rem;
+    /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057); */
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.top-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.bottom-container {
+    margin-top:20px;
+    margin-left: 10px;
+}
+
+.bottom-container h3 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.bottom-container p {
+    margin: 2px;
+}
+
+.bottom-container a {
+    color: rgb(228, 16, 133);
+    text-decoration: none;
+}
+
+/* Detail Page CSS*/
+
+.food-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    padding-left: 100px;
+    width: 40vw;
+}
+
+.image-container img {
+    width: 80%;
+}
+
+.food-details {
+    width: 45vw;
+}
+
+
