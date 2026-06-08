@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![](project1_demo.gif.gif)
+![](project1_demo.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  **LICECap**
